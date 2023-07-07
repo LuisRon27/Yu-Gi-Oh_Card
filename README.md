@@ -1,4 +1,5 @@
 # YuGiOh
+![Yo-gi-oh](https://github.com/LuisRon27/Yu-Gi-Oh_Card/assets/116908552/969176ff-13d3-4295-996e-1c451722613b)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
