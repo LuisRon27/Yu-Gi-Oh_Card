@@ -1,0 +1,78 @@
+.detail-card {
+  display: flex;
+  height: 100%;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  margin: 2em;
+  color: white;
+
+
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.botton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 1em;
+}
+
+.item {
+  max-width: 500px;
+  text-align: center;
+}
+
+.table-custom {
+  background-color: transparent;
+  max-width: 400px;
+  background: transparent !important;
+  border-bottom: 1px solid white;
+
+}
+
+.table-custom thead th {
+  background-color: transparent;
+  color: white;
+  /* Opcional: Cambia el color del texto si es necesario */
+  border-bottom: 1px solid white;
+}
+
+.table-custom tbody td {
+  background-color: rgba(255, 255, 255, 0.399);
+  /* Cambia el valor de opacidad según tus necesidades */
+}
+
+@media only screen and (max-width:780px) {
+  .detail-card {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    flex-direction: column !important;
+  }
+
+  .d-flex {
+    flex-direction: column !important;
+  }
+
+  .d-flex .item {
+    margin-bottom: 0 !important;
+  }
+
+  .cody-img {
+    display: none;
+  }
+}

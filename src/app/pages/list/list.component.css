@@ -1,0 +1,66 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header input{
+  width: 50%;
+  margin-top: 1rem;
+
+}
+
+.list{
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+
+.input {
+  width: 50%;
+  padding: 10px 0px 10px 40px;
+  border-radius: 9999px;
+  border: solid 1px #333;
+  transition: all .2s ease-in-out;
+  outline: none;
+  opacity: 0.8;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.input:focus {
+  opacity: 1;
+  width: 250px;
+}
+
+app-card:hover{
+  cursor: pointer;
+  transition: .3s;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:780px) {
+  .header input{
+    width: 80%;
+  }
+
+  img{
+    width: 50%;
+  }
+
+}

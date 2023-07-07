@@ -1,0 +1,25 @@
+
+app-detail{
+  overflow: hidden;
+}
+
+.content {
+  margin: 0;
+  flex: 1;
+  position: relative;
+
+
+
+}
+
+.content .cody-img {
+  position: sticky;
+  bottom: 1em;
+  left: 100%;
+}
+
+@media screen and (max-width:780px){
+  img{
+    width: 50%;
+  }
+}

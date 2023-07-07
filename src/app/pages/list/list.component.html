@@ -1,0 +1,12 @@
+<div class="header">
+  <img src="../../../assets/logo.png" alt="Logo" width="20%">
+  <input type="text" placeholder="Search" name="text" class="input" [formControl]="cardTextFc">
+</div>
+
+
+<div class="list search-results" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="100"
+  (scrolled)="onScroll()">
+  <div class="cards">
+    <app-card *ngFor="let card of cards" [Card]="card"></app-card>
+  </div>
+</div>
